@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    flex: 2;
+    background-image: url("./assets/worldmap.png");
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-area-container {
+    display: flex;
+    gap: 20px;
+}
+
+.logo-img {
+    height: 100px;
+    width: 100px;
+}
+
+.logo-text-main {
+    color: #32CD32;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0px;
+}
+
+.logo-text-sub {
+    margin-top: 0px;
+    color: #FFFFFF;
+}
+
+main {
+    flex: 5;
+    padding: 30px 15px;
+}
+
+.main-form-container {
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #252F42;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.main-area-h2 {
+    color: #035A9D;
+    font-size: large;
+}
+
+form {
+    width: 100%;
+}
+
+.translate-text-box {
+    background-color: #EFF0F4;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+    height: 50px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.translated-text-box {
+    background-color: #EFF0F4;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+    height: 50px;
+    width: 80%;
+    margin-bottom: 10px;
+    text-align: left;
+    align-content: center;
+}
+
+.lang-selection {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.flag {
+    height: 15px;
+}
+
+.lang-selection-container {
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 70%;
+    background-color: #035A9D;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
