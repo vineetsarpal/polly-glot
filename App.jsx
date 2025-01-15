@@ -67,7 +67,7 @@ export default function App() {
     <>
       <section className="top-section">
         <div className="logo-area-container">
-          <img src="./assets/parrot.png" className="logo-img" />
+          <img src="./public/images/parrot.png" className="logo-img" />
           <div className="logo-text-container">
             <h1 className="logo-text-main">PollyGlot</h1>
             <p className="logo-text-sub">Perfect Translation Every Time</p>
@@ -98,7 +98,7 @@ export default function App() {
                       onChange={onLangOptionChange}
                     />
                     <label htmlFor="french">French</label>
-                    <img src="./assets/fr-flag.png" className="flag" />
+                    <img src="./public/images/fr-flag.png" className="flag" />
                   </div>
                   <div className="lang-selection">
                     <input
@@ -109,7 +109,7 @@ export default function App() {
                       onChange={onLangOptionChange}
                     />
                     <label htmlFor="spanish">Spanish</label>
-                    <img src="./assets/sp-flag.png" className="flag" />
+                    <img src="./public/images/sp-flag.png" className="flag" />
                   </div>
                   <div className="lang-selection">
                     <input
@@ -120,7 +120,7 @@ export default function App() {
                       onChange={onLangOptionChange}
                     />
                     <label htmlFor="japanese">Japanese</label>
-                    <img src="./assets/jpn-flag.png" className="flag" />
+                    <img src="./public/images/jpn-flag.png" className="flag" />
                   </div>
                 </div>
                 <button className="button">Translate</button>
